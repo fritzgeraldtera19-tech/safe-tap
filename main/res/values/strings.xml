@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Safe-tap</string>
+    <!-- Emergency Type Selection Screen -->
+    <string name="select_emergency_type">Select Emergency Type</string>
+    <string name="emergency_type_description">Choose the type of emergency you want to report</string>
+
+    <!-- Emergency Types -->
+    <string name="fire">Fire</string>
+    <string name="fire_desc">Fire emergency or smoke detection</string>
+
+    <string name="flood">Flood</string>
+    <string name="flood_desc">Flooding or water-related emergency</string>
+
+    <string name="earthquake">Earthquake</string>
+    <string name="earthquake_desc">Earthquake or ground shaking</string>
+
+    <string name="medical">Medical</string>
+    <string name="medical_desc">Medical emergency or health crisis</string>
+
+    <string name="accident">Accident</string>
+    <string name="accident_desc">Vehicle accident or collision</string>
+
+    <string name="crime">Crime</string>
+    <string name="crime_desc">Criminal activity or security threat</string>
+
+    <string name="typhoon">Typhoon</string>
+    <string name="typhoon_desc">Typhoon or severe weather</string>
+
+    <string name="landslide">Landslide</string>
+    <string name="landslide_desc">Landslide or soil erosion</string>
+
+    <string name="rescue">Rescue</string>
+    <string name="rescue_desc">Person in need of rescue</string>
+
+    <string name="other">Other</string>
+    <string name="other_desc">Other emergency situations</string>
+
+    <!-- Map Activity -->
+    <string name="tap_map_instruction">Tap on the map to select emergency location</string>
+    <string name="use_current_location">Use My Current Location</string>
+    <string name="additional_details">Additional details (optional)</string>
+    <string name="submit_emergency">Submit Emergency Report</string>
+
+    <!-- Confirmation Screen -->
+    <string name="report_submitted">Emergency Report Submitted</string>
+    <string name="view_history">View History</string>
+    <string name="back_home">Back to Home</string>
+
+    <!-- Status Messages -->
+    <string name="status_pending">Your emergency report has been received and is pending review by MDRRMO.</string>
+    <string name="status_acknowledged">MDRRMO has acknowledged your report and is preparing response.</string>
+    <string name="status_responding">Emergency responders are on their way to your location!</string>
+    <string name="status_completed">Emergency response has been completed. Thank you for using Safe-tap.</string>
+    <!-- Emergency Confirmation Formats -->
+    <string name="report_id_format">Report #%1$d</string>
+    <string name="reported_format">Reported: %1$s</string>
+    <string name="response_time_format">Response Time: %1$d minutes</string>
+    <string name="responder_format">Responder: %1$s</string>
+    <string name="notes_format">Notes: %1$s</string>
+    <string name="emergency_history_title">Emergency History (%1$d reports)</string>
+</resources>

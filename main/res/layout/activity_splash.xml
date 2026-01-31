@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- Shield Icon with Shadow -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="32dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="75dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_dialog_alert"
+                android:tint="#2196F3"
+                android:contentDescription="Shield Logo" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAFE-TAP"
+            android:textColor="@android:color/white"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05"
+            android:shadowColor="#40000000"
+            android:shadowDx="2"
+            android:shadowDy="4"
+            android:shadowRadius="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Offline Emergency Reporting"
+            android:textAlignment="center"
+            android:textColor="#E3F2FD"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="via SMS • GPS"
+            android:textAlignment="center"
+            android:textColor="#BBDEFB"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+
+    <!-- Loading indicator at bottom -->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:indeterminateTint="@android:color/white" />
+
+</RelativeLayout>
